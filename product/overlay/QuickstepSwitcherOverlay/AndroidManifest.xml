@@ -2,6 +2,10 @@
     package="xyz.paphonb.quickstepswitcher.overlay"
     android:versionCode="1"
     android:versionName="1.0">
-    <overlay android:isStatic="true" android:priority="999" android:targetPackage="android"/>
-    <application android:label="QuickSwitch Overlay"/>
+
+    <overlay
+        android:isStatic="true"
+        android:priority="800"
+        android:targetPackage="android" />
+    <application android:label="QuickSwitch Overlay" />
 </manifest>

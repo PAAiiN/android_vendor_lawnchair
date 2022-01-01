@@ -5,7 +5,7 @@ PRODUCT_COPY_FILES += \
     vendor/lawnchair/etc/sysconfig/lawnchair-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/lawnchair-whitelist.xml
 
 PRODUCT_PACKAGES += \
-    QuickstepSwitcherOverlay \
-    LawnchairOverlay \
     Lawnchair \
-    Lawnicons
+    LawnchairOverlay \
+    Lawnicons \
+    QuickstepSwitcherOverlay

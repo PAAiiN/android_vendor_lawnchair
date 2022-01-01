@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <public type="bool" name="config_swipe_up_gesture_setting_available" id="0x7f020000" />
-    <public type="bool" name="config_custom_swipe_up_gesture_setting_available" id="0x7f020001" />
-    <public type="string" name="config_recentsComponentName" id="0x7f030000" />
+    <public name="config_swipe_up_gesture_setting_available" id="0x7f020000" type="bool" />
+    <public name="config_custom_swipe_up_gesture_setting_available" id="0x7f020001" type="bool" />
+    <public name="config_recentsComponentName" id="0x7f030000" type="string" />
 </resources>
