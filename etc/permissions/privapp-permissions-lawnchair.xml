@@ -40,4 +40,9 @@
         <permission name="app.lawnchair.permission.WRITE_SETTINGS" />
         <permission name="com.google.android.apps.nexuslauncher.permission.QSB" />
     </privapp-permissions>
+
+    <privapp-permissions package="app.lawnchair.lawnicons">
+        <permission name="android.permission.INTERNET" />
+        <permission name="app.lawnchair.lawnicons.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    </privapp-permissions>
 </permissions>
